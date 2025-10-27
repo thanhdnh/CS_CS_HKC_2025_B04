@@ -12,3 +12,4 @@
 /Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.pdb
 /Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.genruntimeconfig.cache
 /Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/ref/B04.dll
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.sourcelink.json
