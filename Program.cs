@@ -115,6 +115,7 @@ internal class Program
         Console.WriteLine("Max: " + max);
         Console.WriteLine("Min: " + min);
         */
+        /*
         int[] even, odd;
         int counteven = 0, countodd = 0;
         foreach (int x in input)
@@ -130,5 +131,58 @@ internal class Program
                 even[counteven++] = x;
             else
                 odd[countodd++] = x;
+        */
+
+        //>> MẢNG NHIỀU CHIỀU <<
+        int m = 3, n = 3;
+        int[,] matrix = new int[m, n];
+        int[,] matrix2 = new int[m, n];
+        Random rd = new Random();
+
+        //-> Tạo ma trận matrix
+        for (int i = 0; i < matrix.GetLength(0); i++)
+            for (int j = 0; j < matrix.GetLength(1); j++)
+                matrix[i, j] = rd.Next(0, 10);
+
+        for (int i = 0; i < matrix.GetLength(0); i++)
+        {
+            for (int j = 0; j < matrix.GetLength(1); j++)
+                Console.Write("{0, 3}", matrix[i, j]);
+            Console.WriteLine();
+        }
+        //--> Tạo ma trận matrix2
+        for (int i = 0; i < matrix2.GetLength(0); i++)
+            for (int j = 0; j < matrix2.GetLength(1); j++)
+                matrix2[i, j] = rd.Next(0, 10);
+
+        for (int i = 0; i < matrix2.GetLength(0); i++)
+        {
+            for (int j = 0; j < matrix2.GetLength(1); j++)
+                Console.Write("{0, 3}", matrix2[i, j]);
+            Console.WriteLine();
+        }
+        
+        int[,] summatrix = new int[m, n];
+        for (int i = 0; i < summatrix.GetLength(0); i++)
+            for (int j = 0; j < summatrix.GetLength(1); j++)
+                summatrix[i, j] = matrix[i, j] + matrix2[i, j];
+
+        //--> Tính ma trận tích (hai ma trận vuông)
+        int[,] productmatrix = new int[n, n];
+        for (int i = 0; i < productmatrix.GetLength(0); i++)
+        {
+            for (int j = 0; j < productmatrix.GetLength(1); j++)
+            {
+                int sum = 0;
+                for (int k = 0; k < n; k++)
+                {
+                    sum = sum + matrix[i, k] * matrix2[k, j];
+                }
+                productmatrix[i, j] = sum;
+            }
+        }
+        
+
+
     }
 }
