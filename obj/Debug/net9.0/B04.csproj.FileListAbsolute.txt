@@ -1,0 +1,14 @@
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/bin/Debug/net9.0/B04
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/bin/Debug/net9.0/B04.deps.json
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/bin/Debug/net9.0/B04.runtimeconfig.json
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/bin/Debug/net9.0/B04.dll
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/bin/Debug/net9.0/B04.pdb
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.AssemblyInfoInputs.cache
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.AssemblyInfo.cs
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.csproj.CoreCompileInputs.cache
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.dll
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/refint/B04.dll
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.pdb
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/B04.genruntimeconfig.cache
+/Users/hoangthanh/Documents/CSharp_2025_CS/B04/obj/Debug/net9.0/ref/B04.dll
