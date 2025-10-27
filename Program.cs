@@ -181,6 +181,10 @@ internal class Program
                 productmatrix[i, j] = sum;
             }
         }
+
+        /* Bài về nhà: chuyển đổi qua lại giữa mảng 1 
+        chiều kích thước m*n sang mảng 2 chiều kích 
+        thước mxn */
         
 
 
