@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.ComponentModel.DataAnnotations;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -57,7 +59,7 @@
         */
         //Cách 2:
         //Stage 1: Sắp xếp
-        int[] sorted = new int[input.Length];
+        /*int[] sorted = new int[input.Length];
         for (int i = 0; i < input.Length; i++)
             sorted[i] = input[i];
         for (int i = 0; i < sorted.Length - 1; i++)
@@ -74,7 +76,7 @@
                 flag++;
         int[] frq = new int[flag+1];
         int[] unique = new int[flag + 1];
-
+        //Stage 2: Đếm tần số
         flag = 0;
         int index = 0;
         for (int i = 0; i < sorted.Length-1; i++)
@@ -97,5 +99,36 @@
         Console.WriteLine();
         foreach (int x in frq)
             Console.Write(x + " ");
+        */
+
+        //Xác định số lớn nhất, nhỏ nhất trong mảng
+        /*
+        int max, min;
+        max = min = input[0];
+        for (int i = 1; i < input.Length; i++)
+        {
+            if (input[i] > max)
+                max = input[i];
+            if (input[i] < min)
+                min = input[i];
+        }
+        Console.WriteLine("Max: " + max);
+        Console.WriteLine("Min: " + min);
+        */
+        int[] even, odd;
+        int counteven = 0, countodd = 0;
+        foreach (int x in input)
+            if (x % 2 == 0)
+                counteven++;
+            else
+                countodd++;
+        even = new int[counteven];
+        odd = new int[countodd];
+        counteven = countodd = 0;
+        foreach (int x in input)
+            if (x % 2 == 0)
+                even[counteven++] = x;
+            else
+                odd[countodd++] = x;
     }
 }
